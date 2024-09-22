@@ -146,3 +146,31 @@ nav button {
     margin: 0;
     padding: 0;
 }
+
+
+/* About Page */
+#aboutPage {
+    height: 570px;
+    position: relative;
+    color: #01161e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage #info {
+    background-color: #f1faee;
+    min-width: 66%;
+    min-height: 95%;
+    border-radius: 24px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage hr {
+    width: 90%;
+}
